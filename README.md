@@ -9,14 +9,14 @@
 - Grafana
 
 ## Work-Flow
-Developer pushes code to GitHub
-Jenkins pulls code
-Maven Builds WAR/JAR File
-Docker Builds Images
-Push Image To Docker Hub
-Kubernetes Deploys Container
-Prometheus Monitoring
-Grafana shows Dashboards
+- Developer pushes code to GitHub
+- Jenkins pulls code
+- Maven Builds WAR/JAR File
+- Docker Builds Images
+- Docker Push Image To Docker Hub
+- Kubernetes Deploys Container
+- Prometheus Monitoring
+- Grafana shows Dashboards
 
 ## Run
 mvn clean package
