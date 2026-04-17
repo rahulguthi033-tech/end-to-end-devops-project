@@ -1,14 +1,22 @@
 # End-to-End DevOps Project 🚀
 
-## Stack
-- Java 17
-- Spring Boot 3
+## Tools
+- Maven
 - Jenkins
 - Docker
 - Kubernetes
+- Prometheus
+- Grafana
 
-## Flow
-GitHub → Jenkins → Maven → Docker → Kubernetes
+## Work-Flow
+Developer pushes code to GitHub
+Jenkins pulls code
+Maven Builds WAR/JAR File
+Docker Builds Images
+Push Image To Docker Hub
+Kubernetes Deploys Container
+Prometheus Monitoring
+Grafana shows Dashboards
 
 ## Run
 mvn clean package
